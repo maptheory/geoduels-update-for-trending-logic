@@ -1,0 +1,9 @@
+{
+  "name": "geoduels",
+  "private": true,
+  "scripts": {
+    "extension:package": "node scripts/package-geoduels-enhancer.mjs",
+    "maps:thumbnails": "npm --prefix apps/web run maps:thumbnails",
+    "maps:thumbnails:check": "npm --prefix apps/web run maps:thumbnails:check"
+  }
+}
